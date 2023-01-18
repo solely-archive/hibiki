@@ -2,7 +2,7 @@
 
 *Hibiki was a multi-powered Discord bot for your needs.*
 
-Established: Late 2018
+Established: Late 2017
 
 Notes:
 
