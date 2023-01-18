@@ -1,11 +1,11 @@
 [
-    "announceChannel",
-    "antiInvite",
-    "antiInviteRole",
-    "autoRole",
-    "byeMsg",
-    "modLog",
-    "starboard",
-    "welcomeLog",
-    "welcomeMsg"
+  "announceChannel",
+  "antiInvite",
+  "antiInviteRole",
+  "autoRole",
+  "byeMsg",
+  "modLog",
+  "starboard",
+  "welcomeLog",
+  "welcomeMsg"
 ]

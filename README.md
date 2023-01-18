@@ -1,39 +1,22 @@
 # Hibiki
 
-Hibiki was a multi-powered Discord bot for your needs.
+*Hibiki was a multi-powered Discord bot for your needs.*
 
-# Features
+Established: Late 2018
 
-- Moderation commands
-- Starboard system
-- Reputation system
-- Economy system
-- NSFW commands
-- Search commands
+Note:
 
-.. and more!
+> This is **MASSIVELY** outdated. I do not recommend you using it for anything other than entertainment purposes.
+> I will not offer any self-hosting support.
 
-# Installation / Self Hosting
-
-## Requirements:
-
-- Git
-- Node.js
-- PostgreSQL
-- Redis
-- and a proper IDE.
-
-## Setup
-
-- `git clone https://github.com/solely-archive/hibiki`
-- Create the database `Hibiki` in PostgreSQL.
-- Run `yarn install` to install dependencies.
-- Edit the values in the `Config` folder.
-- Run `yarn lint` to check for any errors [optional].
-- Start the bot with `node bot`.
+This repository is a part of the [solely-archive][archive] organization.
 
 ## License
 
-This website is licensed under the [zlib][license] License.
+This repository is licensed under the [zlib][license] License.
 
-© 2023 Chloe Arciniega.
+© 2023 [Chloe Arciniega][chloe].
+
+[archive]: https://github.com/solely-archive
+[chloe]: https:///www.arciniega.one
+[license]: https://github.com/solely-archive/sol-bot/blob/main/LICENSE 'zlib License'

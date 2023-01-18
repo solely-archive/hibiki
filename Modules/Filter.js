@@ -1,18 +1,18 @@
 module.exports = (filter) => {
-    switch (filter) {
+  switch (filter) {
     case null || undefined || '':
-        return 'None';
+      return 'None';
     case 'invites':
-        return 'Invites';
+      return 'Invites';
     case 'user':
-        return 'User';
+      return 'User';
     case 'bots':
-        return 'Bots';
+      return 'Bots';
     case 'you':
-        return 'You';
+      return 'You';
     case 'uploads':
-        return 'Uploads';
+      return 'Uploads';
     case 'links':
-        return 'Links';
-    }
+      return 'Links';
+  }
 };

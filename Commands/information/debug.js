@@ -3,22 +3,22 @@ const { stripIndents } = require('common-tags');
 const os = require('os');
 
 module.exports = class Debug extends Command {
-    constructor(client) {
-        super(client, {
-            name: 'debug',
-            group: 'information',
-            memberName: 'debug',
-            description: 'Debug information about this bot.',
-            guarded: true,
-            throttling: {
-                usages: 2,
-                duration: 3
-            }
-        });
-    }
+  constructor(client) {
+    super(client, {
+      name: 'debug',
+      group: 'information',
+      memberName: 'debug',
+      description: 'Debug information about this bot.',
+      guarded: true,
+      throttling: {
+        usages: 2,
+        duration: 3,
+      },
+    });
+  }
 
-    run(msg) {
-        return msg.say(stripIndents`
+  run(msg) {
+    return msg.say(stripIndents`
         \`\`\`asciidoc\n
         = Debug =
 
@@ -28,7 +28,9 @@ module.exports = class Debug extends Command {
         • Memory usage :: ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)} MB
         • CPU :: ${os.cpus()[1].model}
 
-        • Memory :: ${this.client.modules.ConvertBytes(os.freemem())} / ${this.client.modules.ConvertBytes(os.totalmem())}
+        • Memory :: ${this.client.modules.ConvertBytes(os.freemem())} / ${this.client.modules.ConvertBytes(
+      os.totalmem()
+    )}
 
         == Versions ==
 
@@ -39,5 +41,5 @@ module.exports = class Debug extends Command {
 
         \`\`\`
         `);
-    }
+  }
 };
