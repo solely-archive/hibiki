@@ -18,6 +18,6 @@ This repository is licensed under the [zlib][license] License.
 
 © 2023 [Chloe Arciniega][chloe].
 
-[archive]: https://github.com/solely-archive
-[chloe]: https:///www.arciniega.one
+[archive]: https://github.com/solely-archive 'solely-archive organization'
+[chloe]: https:///www.arciniega.one 'Chloe Arciniega\'s website (arciniega.one)'
 [license]: https://github.com/solely-archive/sol-bot/blob/main/LICENSE 'zlib License'
