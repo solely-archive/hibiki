@@ -17,6 +17,10 @@ yarn-error.log*
 .env
 .env.production
 
+# lock
+package-lock.json
+yarn.lock
+
 # OS-specific files
 .DS_Store
 desktop.ini
