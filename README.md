@@ -4,9 +4,10 @@
 
 Established: Late 2018
 
-Note:
+Notes:
 
-> This is **MASSIVELY** outdated. I do not recommend you using it for anything other than entertainment purposes.
+> This is **MASSIVELY** outdated. I do not recommend you using it for anything other than entertainment purposes.  
+
 > I will not offer any self-hosting support.
 
 This repository is a part of the [solely-archive][archive] organization.
